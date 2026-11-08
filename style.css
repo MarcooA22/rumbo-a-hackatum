@@ -3,3 +3,8 @@
 [hidden]{display:none!important}.pdf-link{display:inline-block;background:#0065bd;color:white!important;padding:14px 18px;border-radius:10px;text-decoration:none!important;font-weight:700}
 
 .bio h3{font-size:17px;line-height:1.35;margin:24px 0 8px}.bio p{margin:0 0 16px}@media(max-width:600px){.bio{display:block}.bio>img{float:left;margin:0 16px 12px 0}.bio:after{content:'';display:block;clear:both}.bio h3{font-size:16px}.bio p{font-size:14px;line-height:1.75}}
+
+/* Invitación discreta a la rifa, encima del alias. */
+.raffle-note{max-width:570px;margin:-8px auto 10px;text-align:center;color:#526571;font-size:11px;line-height:1.45}
+.raffle-note a{color:#0065bd;font-weight:700;text-decoration:underline;text-underline-offset:2px}
+@media(max-width:600px){.raffle-note{font-size:10px;margin:-5px auto 9px}}
