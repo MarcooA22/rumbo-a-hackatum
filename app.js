@@ -1,5 +1,5 @@
 /* No se conecta a una cuenta bancaria. data.json contiene únicamente cortes confirmados. */
-const DEFAULTS={alias:'marcook',goalUSD:1500,receivedARS:null,receivedEquivalentUSD:null,updatedAt:null,deadline:'2026-11-09T23:59:59+01:00'};
+const DEFAULTS={alias:'marcook',goalUSD:1900,receivedARS:null,receivedEquivalentUSD:null,updatedAt:null,deadline:'2026-11-09T23:59:59+01:00'};
 let campaign={...DEFAULTS},animation=0,shownProgress=0,preview=false;
 const $=id=>document.getElementById(id),money=new Intl.NumberFormat('es-AR',{maximumFractionDigits:0}),usd=new Intl.NumberFormat('es-AR',{maximumFractionDigits:2});
 const reduced=()=>matchMedia('(prefers-reduced-motion: reduce)').matches;
