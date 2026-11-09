@@ -8,3 +8,7 @@
 .raffle-note{max-width:570px;margin:-8px auto 10px;text-align:center;color:#526571;font-size:11px;line-height:1.45}
 .raffle-note a{color:#0065bd;font-weight:700;text-decoration:underline;text-underline-offset:2px}
 @media(max-width:600px){.raffle-note{font-size:10px;margin:-5px auto 9px}}
+
+/* Cartel STOP fijo en lugar de la cuenta regresiva. */
+#clock .stop-sign{display:flex;align-items:center;justify-content:center;flex-direction:row;width:96px;height:96px;min-width:0;background:#c62f32;color:#fff;clip-path:polygon(29% 0,71% 0,100% 29%,100% 71%,71% 100%,29% 100%,0 71%,0 29%);font-size:26px;font-weight:900;letter-spacing:.02em;line-height:1}
+@media(max-width:600px){#clock .stop-sign{width:76px;height:76px;font-size:21px}}
