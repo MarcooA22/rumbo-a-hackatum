@@ -12,3 +12,11 @@
 /* Cartel STOP fijo en lugar de la cuenta regresiva. */
 #clock .stop-sign{display:flex;align-items:center;justify-content:center;flex-direction:row;width:96px;height:96px;min-width:0;background:#c62f32;color:#fff;clip-path:polygon(29% 0,71% 0,100% 29%,100% 71%,71% 100%,29% 100%,0 71%,0 29%);font-size:26px;font-weight:900;letter-spacing:.02em;line-height:1}
 @media(max-width:600px){#clock .stop-sign{width:76px;height:76px;font-size:21px}}
+
+
+/* Demo local: pasaje comprado */
+#clock .success-title{font-size:clamp(48px,9vw,80px);font-weight:900;letter-spacing:-.065em;line-height:1.05;color:var(--accent);display:block;min-width:0}
+.deadline{margin:10px 0 25px;font-size:12px}.flight{padding-top:28px}.support-handles text{font-size:20px!important;letter-spacing:0!important;fill:#a84000!important;font-weight:700!important}.thanks{font-size:clamp(25px,5vw,40px);font-weight:900;letter-spacing:-.045em;margin:23px 0 20px;color:var(--accent)}.percent strong.known{font-size:58px}.percent span{font-size:10px;letter-spacing:.08em;font-weight:700}
+#route-stripes{animation:stripe-flow 1.1s linear infinite}@keyframes stripe-flow{to{stroke-dashoffset:-32}}
+.raffle-card{background:var(--accent);color:white;border-radius:13px;padding:23px 16px;max-width:570px;margin:auto}.raffle-card .eyebrow{color:#fff;opacity:.8;margin:0 0 10px}.raffle-card h2{font-size:26px;letter-spacing:-.04em;margin:0}.raffle-card p{font-size:16px;margin:9px 0 18px}.raffle-card a{font-weight:800;text-underline-offset:4px}.raffle-card small{font-size:11px;line-height:1.65;opacity:.85;display:block}
+@media(max-width:600px){#clock{display:block}.flight{padding-top:24px}.deadline{font-size:10px;margin-bottom:20px}.percent strong.known{font-size:40px}.percent span{font-size:8px}.thanks{margin:19px 0 17px}.raffle-card{padding:21px 12px}.raffle-card h2{font-size:24px}.raffle-card p{font-size:15px}.route-wrap{margin-top:5px}.support-handles text{font-size:22px!important}}
